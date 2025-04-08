@@ -37,8 +37,8 @@ function Slider() {
     no-scrollbar scroll-smooth' ref={elementRef}> 
         {movieList.map((item)=>(
             <img src={IMAGE_BASE_URL+item.backdrop_path} 
-            className='min-w-full  md:h-[310px] object-cover
-            object-left-top mr-5 rounded-md hover:border-[4px]
+            className='min-w-full  md:h-[380px] object-cover
+            mr-8 rounded-md hover:border-[4px]
             border-gray-400 transition-all duration-100 ease-in'/>
         ))}
     </div>

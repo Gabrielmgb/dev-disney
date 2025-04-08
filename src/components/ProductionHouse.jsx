@@ -1,4 +1,3 @@
-import React from 'react'
 import disney from './../assets/Images/disney.png'
 import marvel from './../assets/Images/marvel.png'
 import nationalG from './../assets/Images/nationalG.png'
@@ -42,9 +41,9 @@ function ProductionHouse() {
 
     ]
   return (
-    <div className='flex gap-2 md:gap-5 p-2 px-5 md:px-16 '>
+    <div className='flex gap-3 md:gap-5 py-3 px-5 md:px-16 '>
         {productionHouseList.map((item)=>(
-            <div className='border-[2px] border-gray-600
+            <div className='border-[2px] border-gray-600 hover:border-gray-300
             rounded-lg hover:scale-110 transition-all duration-300
             ease-in-out cursor-pointer relative shadow-xl 
             shadow-gray-800
