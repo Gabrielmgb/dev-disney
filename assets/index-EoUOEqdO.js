@@ -75,6 +75,6 @@ Error generating stack: `+l.message+`
             opacity-0 hover:opacity-50`}),J.jsx("img",{src:c.image,className:"w-full z-[1] opacity-100"})]}))})}const wv="https://image.tmdb.org/t/p/original",d0=window.innerWidth;function Lv(){const[i,c]=$e.useState([]),r=$e.useRef();$e.useEffect(()=>{f()},[]);const f=()=>{j0.getTrendingVideos.then(g=>{console.log(g.data.results),c(g.data.results)})},d=g=>{g.scrollLeft+=d0-110},m=g=>{g.scrollLeft-=d0-110};return J.jsxs("div",{children:[J.jsx(Sv,{className:`hidden md:block text-white text-[30px] absolute\r
         mx-8 mt-[150px] cursor-pointer `,onClick:()=>m(r.current)}),J.jsx(bv,{className:`hidden md:block text-white text-[30px] absolute\r
         mx-8 mt-[150px] cursor-pointer right-0`,onClick:()=>d(r.current)}),J.jsx("div",{className:`flex overflow-x-auto w-full px-16 py-4\r
-    no-scrollbar scroll-smooth`,ref:r,children:i.map(g=>J.jsx("img",{src:wv+g.backdrop_path,className:`min-w-full  md:h-[380px] object-cover\r
+    no-scrollbar scroll-smooth`,ref:r,children:i.map(g=>J.jsx("img",{src:wv+g.backdrop_path,className:`min-w-full  md:h-[370px] object-cover\r
             mr-8 rounded-md hover:border-[4px]\r
             border-gray-400 transition-all duration-100 ease-in`}))})]})}const Gv=()=>J.jsxs("div",{children:[J.jsx(zv,{}),J.jsx(Lv,{}),J.jsx(Yv,{}),J.jsx(yv,{})]});Sy.createRoot(document.getElementById("root")).render(J.jsx($e.StrictMode,{children:J.jsx(Gv,{})}));
