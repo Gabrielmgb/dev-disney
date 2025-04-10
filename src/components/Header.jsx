@@ -43,7 +43,7 @@ function Header() {
       <div className="flex  gap-8 items-center">
         <img
           src={logo}
-          className="w-[80px] 
+          className="w-[90px] 
         md:w-[115px] object-cover"
         />
         <div className="hidden md:flex gap-8">
