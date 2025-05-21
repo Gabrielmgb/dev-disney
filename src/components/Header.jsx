@@ -44,7 +44,7 @@ function Header() {
         <img
           src={logo}
           className="w-[90px] 
-        md:w-[115px] object-cover"
+        md:w-[115px] object-cover cursor-pointer"
         />
         <div className="hidden md:flex gap-8">
           {menu.map((item) => (
